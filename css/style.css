@@ -1,0 +1,31 @@
+/*Barre de navigation*/
+nav {
+    background: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+nav i a {
+    font-size: 120%;
+}
+
+.flaticon-spellbook {
+    display: inline;
+}
+
+.flaticon-dragon {
+    display: inline;
+}
+
+.flaticon-potion {
+    display: inline;
+}
+
+.flaticon-ancient-scroll {
+    display: inline;
+}
+
+body{
+    background: radial-gradient(#020827, #131760);
+}
