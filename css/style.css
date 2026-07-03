@@ -27,5 +27,6 @@ nav i a {
 }
 
 body{
-    background: radial-gradient(#020827, #131760);
+    background: linear-gradient(180deg, #020827, #131760);
+    background-size: cover;
 }

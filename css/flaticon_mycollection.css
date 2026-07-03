@@ -11,10 +11,10 @@
 
 @font-face {
     font-family: "flaticon_mycollection";
-    src: url("../Fonts/flaticon_mycollection.woff2?b3b7bb09de2bb6fedb7df4bc00af2765") format("woff2"),
-url("../Fonts/flaticon_mycollection.woff?b3b7bb09de2bb6fedb7df4bc00af2765") format("woff"),
+    src: url("../fonts/flaticon_mycollection.woff2?b3b7bb09de2bb6fedb7df4bc00af2765") format("woff2"),
+url("../fonts/flaticon_mycollection.woff?b3b7bb09de2bb6fedb7df4bc00af2765") format("woff"),
 url("./flaticon_mycollection.eot?b3b7bb09de2bb6fedb7df4bc00af2765#iefix") format("embedded-opentype"),
-url("../Fonts/flaticon_mycollection.ttf?b3b7bb09de2bb6fedb7df4bc00af2765") format("truetype"),
+url("../fonts/flaticon_mycollection.ttf?b3b7bb09de2bb6fedb7df4bc00af2765") format("truetype"),
 url("./flaticon_mycollection.svg?b3b7bb09de2bb6fedb7df4bc00af2765#flaticon_mycollection") format("svg")
 }
 
