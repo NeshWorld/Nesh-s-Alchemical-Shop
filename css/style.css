@@ -27,6 +27,7 @@ nav {
 }
 
 nav a {
+    position: relative;
     display: flex;
     color: white;
     justify-content: center;
@@ -35,19 +36,26 @@ nav a {
     flex-direction: column;
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
-
 }
 
-nav a:hover {
-    color: #467bed;
+nav a span {
+    position: absolute;
+    color: white;
+    opacity: 0;
 }
 
 nav a i {
     justify-content: center;
 }
 
-nav a i:hover {
-    transform: scale(110%) translateY(-5%);
+nav a:hover i {
+    transform: scale(120%) translateY(-10%);
+}
+
+
+nav a:hover span{
+    opacity: 1;
+    transform: scale(1) translateY(140%);
 }
 
 .flaticon-spellbook {
@@ -129,6 +137,9 @@ section {
 }
 
 footer {
+    margin: 150px;
+    font-size: 2em;
     font-family: 'Pixelify Sans', sans-serif;
     color: white;
+    text-align: center;
 }
