@@ -1,4 +1,5 @@
 body{
+    margin: 20px 0 0 0;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -11,12 +12,13 @@ body{
 nav {
     position: fixed;
     display: flex;
-    background: rgba(255, 255, 255, .1);
+    background: rgb(255 255 255 / 0.08);
     border-radius: 20px;
     backdrop-filter: blur(8px);
     justify-content: center;
     left: 5%;
     right: 5%;
+    flex-wrap: wrap;
 
     height: 50px;
     text-align: center;
@@ -45,7 +47,7 @@ nav a i {
 }
 
 nav a i:hover {
-    transform: scale(110%) translateY(5%);
+    transform: scale(110%) translateY(-5%);
 }
 
 .flaticon-spellbook {
@@ -82,4 +84,51 @@ section {
     font-size: 5em;
     justify-content: center;
     align-items: center;
+}
+
+/*Element d'affichage de certains objets*/
+
+.cards {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+
+    background: rgb(202 210 255 / 0.3);
+}
+
+#potion-health {
+    width: auto;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#magic-parchment {
+    width: auto;
+    height: 50%;
+    align-items: center
+}
+
+#frozen-parchment {
+    width: auto;
+    height: 75%;
+    align-items: center
+}
+
+footer {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
 }
