@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Heal potion",
+      "fr": "Potion de soins"
+    },
+    "price": 50,
+    "image": "Potion_soin_asset.png",
+    "description": {
+      "en": "",
+      "fr": "Cette potion vous rendra toute votre vigueur. A conserver au sec dans une fiole en verre."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Lucky potion",
+      "fr": "Potion de chance"
+    },
+    "price": 150,
+    "image": "",
+    "description":{
+      "en": "",
+      "fr": "Cette potion vous apportera de la chance... Même si vous n'en avez jamais. Attention, à utiliser sur l'avis d'un maître sorcier."
+    }
+  }
+]
