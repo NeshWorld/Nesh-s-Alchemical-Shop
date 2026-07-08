@@ -9,13 +9,15 @@ body{
 }
 
 /*Barre de navigation*/
-nav {
-    position: fixed;
+header {
     display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
     background: rgb(255 255 255 / 0.08);
     border-radius: 20px;
     backdrop-filter: blur(8px);
-    justify-content: center;
     left: 5%;
     right: 5%;
     flex-wrap: wrap;
@@ -23,20 +25,34 @@ nav {
     height: 50px;
     text-align: center;
     padding: 2rem;
-    gap: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    justify-content: space-between;
+}
+
+#account-log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
 }
 
 nav a {
     position: relative;
     display: flex;
     color: white;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: 20px;
-    flex-direction: column;
+    flex-direction: row;
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
 }
+
 
 nav a span {
     position: absolute;
@@ -56,6 +72,14 @@ nav a:hover i {
 nav a:hover span{
     opacity: 1;
     transform: scale(1) translateY(140%);
+}
+
+#account-log a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 .flaticon-spellbook {
@@ -95,7 +119,6 @@ section {
 }
 
 /*Element d'affichage de certains objets*/
-
 .cards {
     display: flex;
     margin: 0;

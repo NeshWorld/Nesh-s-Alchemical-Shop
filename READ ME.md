@@ -34,3 +34,6 @@ Compte utilisateur
 - Mot de passe oublié
 - Identifiant uniquement par email ou aussi par pseudo ?
 - Photo/image de profil
+
+Home
+- lors du défilement des images, farie ensorte que l'image reste d'abrod fixe, puis un texte apparaît, puis l'image s'envole et la suivante apparait
