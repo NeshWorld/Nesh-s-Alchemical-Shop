@@ -36,4 +36,9 @@ Compte utilisateur
 - Photo/image de profil
 
 Home
-- lors du défilement des images, farie ensorte que l'image reste d'abrod fixe, puis un texte apparaît, puis l'image s'envole et la suivante apparait
+- lors du défilement des images, faire en sorte que l'image reste d'abord fixe, puis un texte apparaît, puis l'image s'envole et la suivante apparait
+
+Ajouts des pages conexion/inscriptions 
+- A connecter plus tard à une base de données 
+
+Créer la base de données 
