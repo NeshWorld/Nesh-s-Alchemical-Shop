@@ -1,5 +1,6 @@
 body{
     margin: 20px 0 0 0;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -169,6 +170,10 @@ button {
     color: white;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*Element d'affichage de certains objets*/
 .cards {
     display: flex;
@@ -187,13 +192,20 @@ button {
     border-radius: 15px;
     justify-content: center;
     text-align: center;
+    box-sizing: content-box;
+    width: 50%;
 
     background: rgb(202 210 255 / 0.3);
 }
 
+.card * {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
 #potion-health {
     width: auto;
-    height: 50%;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
