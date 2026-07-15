@@ -23,6 +23,8 @@ header {
     right: 5%;
     flex-wrap: wrap;
 
+    z-index: 10;
+
     height: 50px;
     text-align: center;
     padding: 2rem;
@@ -41,7 +43,7 @@ nav {
     align-items: center;
     gap: 2em;
 }
-
+        
 nav a {
     position: relative;
     display: flex;
@@ -53,7 +55,6 @@ nav a {
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
 }
-
 
 nav a span {
     position: absolute;
@@ -141,11 +142,8 @@ section {
 label {
     display: flex;
     flex-direction: column;
-    background: rgb(255 255 255 / 0.08);
     border-radius: 20px;
     backdrop-filter: blur(8px);
-
-
 }
 
 label input{
@@ -159,8 +157,8 @@ label input{
 }
 
 button {
-    height: 50px;
-    width: 200px;
+    height: auto;
+    width: auto;
     border-radius: 20px;
     background: #7f5ee1;
     justify-content: center;
@@ -172,6 +170,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background: #2cbae8;
 }
 
 /*Element d'affichage de certains objets*/
