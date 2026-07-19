@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 20px 0 0 0;
     min-height: 100vh;
@@ -54,12 +59,12 @@ nav a {
     flex-direction: row;
     text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
-}
 
-nav a span {
-    position: absolute;
-    color: white;
-    opacity: 0;
+    span {
+        position: absolute;
+        color: white;
+        opacity: 0;
+    }
 }
 
 nav a i {
@@ -144,16 +149,16 @@ label {
     flex-direction: column;
     border-radius: 20px;
     backdrop-filter: blur(8px);
-}
 
-label input{
-    height: 50px;
+    input {
+        height: 50px;
 
-    color: white;
-    background: rgb(255 255 255 / 0.08);
-    border-radius: 20px;
-    backdrop-filter: blur(8px);
+        color: white;
+        background: rgb(255 255 255 / 0.08);
+        border-radius: 20px;
+        backdrop-filter: blur(8px);
     text-align: center;
+    }
 }
 
 button {
